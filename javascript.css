@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'VT323', 'Ubuntu Mono', 'Fira Mono';
+}
+
+/* Lore background */
+.container {
+    height: 100vh;
+    background-image: url('https://images2.alphacoders.com/248/thumb-1920-248970.jpg');
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    z-index: -1;
+}
+/* Normal background */
+.container1 {
+    background-image: url('https://mir-s3-cdn-cf.behance.net/project_modules/1400/4c032e28008799.56e41b3bbd979.gif');
+    color: black;
+}
+/* win background */
+.container2 {
+    background-image: url('https://i.gifer.com/QBkT.gif');
+    color: white;
+}
+/* lose background */
+.container3 {
+    background-image: url('https://media1.giphy.com/media/klh557jG1YQFi/giphy.gif');
+    color: white;
+}
+
+
+.title {
+    margin-top: 12vh;
+    font-size: 3em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.test-area {
+    width: 70vw;
+    height: 60vh;
+    box-sizing: border-box;
+    padding: 0.5em;
+    background-color: rgb(255, 255, 255, 0.5);
+    margin: auto;
+    text-align: left;
+    color: rgb(2, 40, 90);
+    overflow: auto;
+    font-size: 48px;
+}
+
+@media only screen and (max-width: 800px) {
+
+    .title {
+        font-size: 2em;
+    }
+
+    .test-area {
+        width: 80vw;
+    }
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+    width: 16px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #b5e3f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #0b7a9c;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #006888;
+}
+
+/* buttons */
+.btn-container {
+  display: flex;
+  justify-content: space-around;
+}
+.btn-group {
+
+}
+.btn {
+  padding: 20px;
+  background-color: #503AD6;
+  font-size: 26px;
+  color: white;
+  border: none;
+}
+.btn:hover {
+  opacity: 0.8;
+}
+.invisible {
+  visibility: hidden;
+  display: none;
+}
+
+.story-window{
+  /* background-color: black; */
+  width: 100%;
+  margin-top: 20px;
+  font-size: 36px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.story-window *{
+  font-size: 36px;
+  font-family: 'VT323', 'Ubuntu Mono', 'Fira Mono';
+  margin: 20px;
+}
+.story-window img{
+  max-width: 500px;
+  height: auto;
+}
+
+.btn7 {
+  background-color: salmon;
+}
